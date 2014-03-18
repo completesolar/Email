@@ -1,0 +1,27 @@
+{   
+    "name":"completesolar/email",
+	"description":"Email class of Complete Solar Solution",
+	"keywords": ["Email"],
+	"homepage": "http://completesolar.com",
+	"type":"library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alan Anderson",
+			"email": "aanderson@completesolar.com",
+			"homepage":"http://completesolar.com"
+		},
+		{
+			"name": "Aida Youssef",
+			"email": "ayoussef@completesolar.com",
+			"homepage":"http://completesolar.com"
+		}
+	],
+	"require": {      
+    },
+	"autoload": {
+		"psr-4": {
+			"CompleteSolar\\Email\\": "src/"
+		}
+	}
+}
